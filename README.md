@@ -6,15 +6,15 @@ Cord blood is the blood that is obtained after the birth of a baby. Cord blood i
 ### Software and packages 
 This paper uses XGBoost, LightGBM, and rBayesianOptimization packages to run XGBoost, LightGBM, and Bayesian optimization algorithms in R software with version 4.1.1 R. In this research, the imbalanced-Learn library in Python software version 3.7.3 is used to implement the SMOTE_NC technique.
 ### Description of code files
-**DataAndFunction.R**
+- **DataAndFunction.R**
 In this file, the data format and missing values were fixed, and it was identified which part of the data should be assigned to the train and test data. Furthermore, functions like XGBoost and LightGBM are defined to be used for other code files.
-**smote TNC.html**
+- **smote TNC.html**
 In this file, when the threshold for TNC is identified as 0.7×10^9 or 1.5×10^9, we face an imbalance data. So, SMOTE_NC was applied to solve this issue.
-**xgb_light_opt.R**
+- **xgb_light_opt.R**
 In this file, the parameters of XGBoost and LightGBM were tuned by the Bayesian optimization method. 
-**testig_algorithm.R**
+- **testig_algorithm.R**
 In this file, the performance of algorithms was evaluated by test data.
-**plot.R**
+- **plot.R**
 In this file, the performance of algorithms has been shown in some pictures.
-## Road map
-![Road map]([image.jpg](https://github.com/HaghbayanM1374/TNC-Prediction/blob/master/picture/process.jpg))
+- ## Road map
+![Road map](https://github.com/HaghbayanM1374/TNC-Prediction/blob/master/picture/process.jpg)
